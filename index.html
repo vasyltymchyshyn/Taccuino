@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Finale</title>
+
+    <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css" />
+    <link rel="stylesheet"
+          href="bower_components/bootstrap/dist/css/bootstrap.css"
+          type="text/css"/>
+    <link rel="stylesheet"
+          href="bower_components/bootstrap/dist/css/bootstrap-theme.css"
+          type="text/css"/>
+    <link rel="stylesheet"
+          href="bower_components/jquery-ui/themes/base/all.css"
+          type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+
+    <script type="text/javascript"
+            src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript"
+            src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/jquery-ui/jquery-ui.js"></script>
+    <script type="text/javascript" src="bower_components/moment/moment.js"></script>
+
+    <script type="text/javascript"
+            src="scripts/app.js"></script>
+
+    <script type="text/javascript"
+            src="services/dataAccessService.js"></script>
+
+    <script type="text/javascript"
+            src="pages/homeController.js"></script>
+    <script type="text/javascript"
+            src="pages/contactController.js"></script>
+    <script type="text/javascript"
+            src="pages/detailsController.js"></script>
+    <script type="text/javascript"
+            src="pages/editController.js"></script>
+    <script type="text/javascript"
+            src="pages/insertController.js"></script>
+    <script type="text/javascript"
+            src="pages/deleteController.js"></script>
+</head>
+<body ng-app="myApp">
+    <div class="container">
+
+        <div ui-view></div>
+
+    </div>
+</body>
+</html>

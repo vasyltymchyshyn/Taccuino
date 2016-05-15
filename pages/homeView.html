@@ -1,0 +1,17 @@
+<h1>Home</h1>
+
+
+<br>
+<div class="row">
+    <div ng-repeat="n in list">
+            <div class="col-md-3 elemento">
+                <a ui-sref="details({id:n.id})">{{n.messaggio}}</a>
+            </div>
+    </div>
+    <div class="col-md-3 elemento">
+        <a class="add" ui-sref="insert" title="aggiungi"><i class="fa fa-plus"></i></a>
+    </div>
+    <div class="col-md-3 elemento">
+        <a class="add" ng-click="clearStorage()" title="svuota storage"><i class="fa fa-minus"></i></a>
+    </div>
+</div>

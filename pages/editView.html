@@ -1,0 +1,86 @@
+<a ui-sref="home" >Torna alla home</a>
+<h1>Modifica</h1>
+
+<section class="row">
+    <form class="form-horizontal">
+
+        <div class="form-group">
+            <label for="txtName" class="col-md-2 control-label">Nome:</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control" id="txtName" placeholder="Nome" ng-model="name">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="txtSurname" class="col-md-2 control-label">Cognome:</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control" id="txtSurname" placeholder="Cognome" ng-model="surname">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="sex" class="col-md-2 control-label">Sesso:</label>
+            <div class="col-md-2">
+                <select id="sex" ng-model="sex" class="form-control">
+                    <option value="M">Uomo</option>
+                    <option value="F">Donna</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="txtEmail" class="col-md-2 control-label">Email:</label>
+            <div class="col-md-8">
+                <input type="email" class="form-control" id="txtEmail" placeholder="Email" ng-model="email">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="txtTel" class="col-md-2 control-label">Telefono:</label>
+            <div class="col-md-8">
+                <input type="tel" class="form-control" id="txtTel" placeholder="Telefono" ng-model="tel">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="txtBirthday" class="col-md-2 control-label">Data di nascita:</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control" id="txtBirthday" placeholder="Data di nascita" ng-model="birthday">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="txtCityOfBirth" class="col-md-2 control-label">Città di nascita:</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control" id="txtCityOfBirth" placeholder="Città di nascita" ng-model="cityOfBirth">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="txtFiscalCode" class="col-md-2 control-label">Codice fiscale:</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control" id="txtFiscalCode" placeholder="Codice fiscale" ng-model="fiscalCode">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="txtAddress" class="col-md-2 control-label">Indirizzo:</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control" id="txtAddress" placeholder="Indirizzo" ng-model="address">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="txtCity" class="col-md-2 control-label">Città:</label>
+            <div class="col-md-8">
+                <input type="text" class="form-control" id="txtCity" placeholder="Città" ng-model="city">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-md-offset-2 col-md-8">
+                <button type="button" class="btn btn-default" ng-click="updateClick()">Invia</button>
+            </div>
+        </div>
+    </form>
+</section>
