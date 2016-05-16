@@ -2,11 +2,128 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="80baf067-fced-4f92-8546-469227e4bee4" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/homeView.html" afterPath="$PROJECT_DIR$/pages/homeView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/insertView.html" afterPath="$PROJECT_DIR$/pages/insertView.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/styles/style.css" afterPath="$PROJECT_DIR$/styles/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/.github/ISSUE_TEMPLATE.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/License.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/froala_editor.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/froala_editor.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/froala_editor.pkgd.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/froala_editor.pkgd.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/froala_style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/froala_style.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/char_counter.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/char_counter.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/code_view.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/code_view.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/colors.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/colors.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/draggable.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/draggable.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/emoticons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/emoticons.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/file.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/file.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/fullscreen.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/fullscreen.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/image.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/image.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/image_manager.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/image_manager.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/line_breaker.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/line_breaker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/quick_insert.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/quick_insert.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/table.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/table.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/video.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/plugins/video.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/themes/dark.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/themes/dark.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/themes/gray.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/themes/gray.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/themes/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/themes/red.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/themes/royal.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/css/themes/royal.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/froala_editor.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/froala_editor.pkgd.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/ar.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/bs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/cs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/da.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/de.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/en_ca.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/en_gb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/es.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/et.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/fa.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/fi.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/fr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/he.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/hr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/hu.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/id.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/it.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/ja.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/ko.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/me.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/nb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/nl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/pl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/pt_br.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/pt_pt.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/ro.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/ru.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/sr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/sv.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/th.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/tr.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/ua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/zh_cn.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/languages/zh_tw.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/align.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/char_counter.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/code_beautifier.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/code_view.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/colors.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/draggable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/emoticons.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/entities.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/file.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/font_family.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/font_size.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/forms.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/fullscreen.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/image.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/image_manager.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/inline_style.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/line_breaker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/link.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/lists.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/paragraph_format.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/paragraph_style.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/quick_insert.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/quote.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/save.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/table.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/url.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/video.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/20160222_TestFinale.iml" afterPath="$PROJECT_DIR$/.idea/20160222_TestFinale.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/insertController.js" afterPath="$PROJECT_DIR$/pages/insertController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages/insertView.html" afterPath="$PROJECT_DIR$/pages/insertView.html" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
     </list>
     <ignored path="20160222_TestFinale.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,10 +143,11 @@
     <favorites_list name="20160222_TestFinale" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="-11.769231">
               <caret line="21" column="71" selection-start-line="21" selection-start-column="71" selection-end-line="21" selection-end-column="71" />
               <folding />
@@ -52,6 +170,10 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+=======
+            <state vertical-scroll-proportion="2.6666667">
+              <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
               <folding />
             </state>
           </provider>
@@ -60,8 +182,13 @@
       <file leaf-file-name="homeView.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/homeView.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="-13.076923">
               <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+=======
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
               <folding />
             </state>
           </provider>
@@ -73,6 +200,7 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
               <folding />
+<<<<<<< HEAD
             </state>
           </provider>
         </entry>
@@ -83,6 +211,8 @@
             <state vertical-scroll-proportion="-0.0">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
+=======
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
             </state>
           </provider>
         </entry>
@@ -90,8 +220,13 @@
       <file leaf-file-name="insertView.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/insertView.html">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="0.23407917">
               <caret line="23" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+=======
+            <state vertical-scroll-proportion="0.0">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
               <folding />
             </state>
           </provider>
@@ -101,7 +236,44 @@
         <entry file="file://$PROJECT_DIR$/pages/insertController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
               <caret line="49" column="80" selection-start-line="49" selection-start-column="80" selection-end-line="49" selection-end-column="80" />
+              <folding />
+=======
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1463393838548" expanded="true" signature="1358:1372" placeholder="..." />
+              </folding>
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/styles/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editView.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/editView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="editController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/editController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -117,10 +289,20 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="logoFinal.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/images/logoFinal.png">
           <provider selected="true" editor-type-id="images">
             <state />
+=======
+      <file leaf-file-name="homeView.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pages/homeView.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding />
+            </state>
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
           </provider>
         </entry>
       </file>
@@ -144,18 +326,31 @@
         <option value="$PROJECT_DIR$/scripts/app.js" />
         <option value="$PROJECT_DIR$/pages/contactView.html" />
         <option value="$PROJECT_DIR$/pages/deleteController.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/pages/editController.js" />
+=======
+        <option value="$PROJECT_DIR$/styles/style.css" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
         <option value="$PROJECT_DIR$/pages/deleteView.html" />
-        <option value="$PROJECT_DIR$/pages/editView.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/services/dataAccessService.js" />
+<<<<<<< HEAD
+=======
+        <option value="$PROJECT_DIR$/pages/homeView.html" />
+        <option value="$PROJECT_DIR$/pages/detailsView.html" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
         <option value="$PROJECT_DIR$/pages/homeController.js" />
         <option value="$PROJECT_DIR$/pages/detailsController.js" />
+        <option value="$PROJECT_DIR$/pages/editView.html" />
+        <option value="$PROJECT_DIR$/pages/editController.js" />
         <option value="$PROJECT_DIR$/pages/insertController.js" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/pages/detailsView.html" />
         <option value="$PROJECT_DIR$/styles/style.css" />
         <option value="$PROJECT_DIR$/pages/homeView.html" />
+=======
+        <option value="$PROJECT_DIR$/index.html" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
         <option value="$PROJECT_DIR$/pages/insertView.html" />
       </list>
     </option>
@@ -169,10 +364,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -185,7 +380,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -237,6 +432,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Taccuino" />
+<<<<<<< HEAD
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -251,20 +447,8 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Taccuino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scripts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="20160222_TestFinale" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Taccuino" />
+=======
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -282,13 +466,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="bower_components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+<<<<<<< HEAD
+            <PATH_ELEMENT>
+              <option name="myItemId" value="20160222_TestFinale" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Taccuino" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+=======
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -308,7 +516,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+<<<<<<< HEAD
       <recent name="C:\Users\Mach2\Documents\Taccuino\images" />
+=======
+      <recent name="C:\ITS\Git\Project Work\Taccuino\bower_components" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
       <recent name="$PROJECT_DIR$/pages" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -391,9 +603,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="false" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27452415" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -411,6 +624,25 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27416798" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905483" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32672113" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39929327" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -452,7 +684,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,15 +952,39 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/pages/editView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-7.1923075">
           <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+=======
+    <entry file="file://$PROJECT_DIR$/services/dataAccessService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/editController.js">
+    <entry file="file://$PROJECT_DIR$/pages/detailsView.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/homeController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+          <folding />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/detailsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.02905983">
           <caret line="11" column="52" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
         </state>
@@ -739,6 +994,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="7" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
+=======
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
           <folding />
         </state>
       </provider>
@@ -746,11 +1005,16 @@
     <entry file="file://$PROJECT_DIR$/pages/insertController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
           <caret line="49" column="80" selection-start-line="49" selection-start-column="80" selection-end-line="49" selection-end-column="80" />
+=======
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/images/logoFinal.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -769,29 +1033,60 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/bower_components/font-awesome/less/screen-reader.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/detailsController.js">
+    <entry file="file://$PROJECT_DIR$/bower_components/froala-wysiwyg-editor/js/plugins/url.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/editController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
           <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+=======
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/styles/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+=======
+    <entry file="file://$PROJECT_DIR$/pages/editView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/pages/homeView.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.076923">
           <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+=======
+    <entry file="file://$PROJECT_DIR$/styles/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
           <folding />
         </state>
       </provider>
@@ -800,6 +1095,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
           <folding />
         </state>
       </provider>
@@ -808,6 +1104,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.23407917">
           <caret line="23" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+=======
+          <folding>
+            <marker date="1463393838548" expanded="true" signature="1358:1372" placeholder="..." />
+          </folding>
+>>>>>>> 34a7e3369dac2729bf234268377ed77f7d514a00
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/insertView.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.6666667">
+          <caret line="106" column="0" selection-start-line="106" selection-start-column="0" selection-end-line="106" selection-end-column="0" />
           <folding />
         </state>
       </provider>
