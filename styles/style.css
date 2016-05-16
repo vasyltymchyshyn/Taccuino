@@ -22,3 +22,17 @@ h1{
     border-radius: 20px;
     text-align: center;
 }
+
+
+
+.image{
+    height: 35px;
+    width: 40px;
+
+}
+.body1{
+    margin-top: 5%
+}
+.body2{
+    margin-top: 10%;
+}
