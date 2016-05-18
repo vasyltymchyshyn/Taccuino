@@ -14,8 +14,6 @@ angular.module('myApp')
         });
         $( "#txtBirthday" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
 
-        $('#edit').froalaEditor();
-
         var fileInput = document.getElementById('file');
         fileInput.addEventListener('change', function(e) {
             var reader = new FileReader(); //create reader
