@@ -5,8 +5,15 @@ angular.module('myApp')
         $scope.clearStorage = function(){
             localStorage.clear();
             location.reload();
+            $scope.$apply();
         };
 
+        $scope.elimina = function(targetId) {
+            dataAccess.delete(targetId);
+            $scope.list = dataAccess.getAll();
+            $scope.copia = dataAccess.getAll();
+            $scope.search = '';
+        }
 
         $scope.list = dataAccess.getAll();
         $scope.copia = dataAccess.getAll();
@@ -31,7 +38,7 @@ angular.module('myApp')
             var noteGiuste = [];
             for(var i = 0; i<note.length; i++) {
 
-                var maiu = note[i].messaggio.toUpperCase();
+                var maiu = note[i].titolo.toUpperCase();
 
                 if(maiu.search(filtro)>-1) {
 
@@ -48,7 +55,4 @@ angular.module('myApp')
 
 
        // $scope.list = dataAccess.getAll();
-
-
-
     });

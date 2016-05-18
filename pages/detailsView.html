@@ -1,7 +1,29 @@
-<a ui-sref="home" >Torna alla home</a>
-<div class="row">
+<div class="navbar navbar-fixed-top navbar-default navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#example">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand pull-left" ui-sref="home"><img src="images/logoFinal.png" class="image" id="HomeLink"/></a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="example">
+            <ul class="nav navbar-nav">
+                <li class=""><a href="">Link2</a></li>
+            </ul>
+
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</div>
+
+<div class="row body2">
     <header class="col-md-12">
-        <h1>{{persona.name}} {{persona.surname}}</h1>
+        <h1>{{nota.titolo}}</h1>
+        <p>{{nota.messaggio}}</p>
     </header>
 </div>
 

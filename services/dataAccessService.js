@@ -6,13 +6,17 @@ angular.module('myApp')
             var temp = [
                 {
                     id: 1,
-                    name: 'Mario',
-                    messaggio: 'Sono Mario, e stavo avendo una bella serata'
+                    titolo: 'Aonna',
+                    data: '',
+                    messaggio: 'Sono Mario, e stavo avendo una bella serata',
+                    image: ''
                 },
                 {
                     id: 2,
-                    name: 'Paola',
-                    messaggio: 'paola'
+                    titolo: 'Presentazione',
+                    data: '',
+                    messaggio: 'paola',
+                    image: ''
                 }
             ];
 

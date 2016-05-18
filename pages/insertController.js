@@ -1,19 +1,8 @@
 angular.module('myApp')
     .controller('insertController', function($scope, $state, dataAccess){
 
-        $scope.name = '';
-        $scope.surname = '';
+        $scope.titolo = '';
         $scope.messaggio = '';
-        $scope.src = '';
-
-        $( "#txtBirthday" ).datepicker({
-            changeMonth: true,
-            changeYear: true,
-            yearRange: '1900:-0',
-            maxDate: 0
-        });
-        $( "#txtBirthday" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
-
 
         var fileInput = document.getElementById('file');
         fileInput.addEventListener('change', function(e) {
@@ -31,13 +20,14 @@ angular.module('myApp')
         $scope.insertClick = function(){
             var x = new Object();
             x.id = -1;
-            x.name = 'PlaceHolder';
+            x.titolo = $scope.titolo;
             x.messaggio = $scope.messaggio;
+            x.data = new Date()+"";
             x.image = localStorage.img;
             localStorage.img = "";
 
             var image = "<img style='display:block;' id='base64image' src= '"+x.image+"'/>"
-            $('body').html( $('body').html()+image );
+            //$('body').html( $('body').html()+image );
 
 
             //var img = document.createElement('img');
@@ -47,7 +37,6 @@ angular.module('myApp')
 
             dataAccess.insert(x);
             $state.go('home');
-            //TODO: Togliere la prossima linea che se il prof la trova ci mangia
             location.reload();
         }
 

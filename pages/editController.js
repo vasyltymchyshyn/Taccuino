@@ -3,41 +3,33 @@ angular.module('myApp')
         $scope.id = $stateParams.id;
         var currentObj = dataAccess.getById($stateParams.id);
 
-        $scope.name = currentObj.name;
-        $scope.surname = currentObj.surname;
-        $scope.sex = currentObj.sex;
-        $scope.email= currentObj.email;
-        $scope.tel = currentObj.tel;
-        $scope.birthday = currentObj.birthday;
-        $scope.cityOfBirth = currentObj.cityOfBirth;
-        $scope.fiscalCode = currentObj.fiscalCode;
-        $scope.address = currentObj.address;
-        $scope.city = currentObj.city;
-
-        $( "#txtBirthday" ).datepicker({
-            changeMonth: true,
-            changeYear: true,
-            yearRange: '1900:-0',
-            maxDate: 0
-        });
-        $( "#txtBirthday" ).datepicker( "option", "dateFormat", "yy-mm-dd" );
+        $scope.titolo = currentObj.titolo;
+        $scope.messaggio = currentObj.messaggio;
 
         $scope.updateClick = function() {
             var x = new Object();
             x.id = currentObj.id;
-            x.name = $scope.name;
-            x.surname = $scope.surname;
-            x.sex = $scope.sex;
-            x.email = $scope.email;
-            x.tel = $scope.tel;
-            x.birthday = moment($("#txtBirthday").val());
-            x.cityOfBirth = $scope.cityOfBirth;
-            x.fiscalCode = $scope.fiscalCode;
-            x.address = $scope.address;
-            x.city = $scope.city;
+            x.titolo = $scope.titolo;
+            x.data = currentObj.data;
+            x.messaggio = $scope.messaggio;
+            x.image = localStorage.img;
+            localStorage.img = "";
 
             dataAccess.update(x);
             $state.go('home');
         }
 
+
+        var fileInput = document.getElementById('file');
+        fileInput.addEventListener('change', function(e) {
+            var reader = new FileReader(); //create reader
+            reader.onload = function() { //attach onload
+                //do something with the result
+                console.log(reader.result);
+                localStorage.img = reader.result; //saved to localStorage
+            };
+            var file = e.target.files[0];
+            reader.readAsDataURL(file); //trigger onload function
+            console.log('trigger1');
+        });
     });

@@ -25,11 +25,6 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             templateUrl: 'pages/editView.html',
             controller: 'editController'
         })
-        .state('delete', {
-            url: '/delete/:id',
-            templateUrl: 'pages/deleteView.html',
-            controller: 'deleteController'
-        })
         .state('insert', {
             url: '/insert/',
             templateUrl: 'pages/insertView.html',

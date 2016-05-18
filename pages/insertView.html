@@ -14,14 +14,8 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="example">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="">Link2</a></li>
+                <li class=""><a href="">Link2</a></li>
             </ul>
-            <form action="" class="navbar-form navbar-right" role="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="search your note">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
 
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -31,12 +25,23 @@
     <form class="form-horizontal">
 
         <div class="form-group">
-            <label for="txtName" class="col-md-2 control-label">Titolo della nota:</label>
+            <label for="txtName" class="col-md-2 control-label">Titolo:</label>
             <div class="col-md-8">
-                <input type="text" class="form-control" id="txtName" placeholder="Nome" ng-model="messaggio">
+                <input type="text" class="form-control" id="txtName" placeholder="Titolo" ng-model="titolo">
             </div>
         </div>
-            <input id="file" name="file" type="file" />
+        <div class="form-group">
+            <label for="txtName" class="col-md-2 control-label">Messaggio:</label>
+            <div class="col-md-8">
+                <textarea class="form-control" placeholder="Il tuo messaggio qui" ng-model="messaggio"></textarea>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="file" class="col-md-2 control-label">File:</label>
+            <div class="col-md-8">
+                <input id="file" name="file" class="form-control" type="file" />
+            </div>
+        </div>
         <div class="form-group">
             <div class="col-md-offset-2 col-md-8">
                 <button type="button" class="btn btn-default" ng-click="insertClick()">Invia</button>

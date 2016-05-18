@@ -36,14 +36,14 @@
 <br>
 <div class="row body1">
     <div class="col-md-offset-2">
-        <div ng-repeat="n in copia" ui-sref="details({id:n.id})">
+        <div ng-repeat="n in copia">
 
             <div class="col-md-3 elemento borderNotes">
-                <h3 ui-sref="details({id:n.id})">{{n.messaggio}}</h3>
+                <h3>{{n.titolo}}</h3>
                 <div class="row icons">
                     <a class="productIcons" ui-sref="details({id:n.id})" title="dettaglio"><i class="fa fa-newspaper-o col-md-3"></i></a>
                     <a class="productIcons" ui-sref="edit({id:n.id})" title="modifica"><i class="fa fa-pencil-square-o col-md-3"></i></a>
-                    <a class="productIcons" ui-sref="delete({id:n.id})" title="cancella"><i class="fa fa-trash-o col-md-3"></i></a>
+                    <a class="productIcons" ng-click="elimina(n.id)" title="cancella"><i class="fa fa-trash-o col-md-3"></i></a>
                 </div>
             </div>
         </div>
