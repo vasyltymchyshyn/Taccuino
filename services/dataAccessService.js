@@ -12,7 +12,7 @@ angular.module('myApp')
                 {
                     id: 2,
                     name: 'Paola',
-                    messaggio: 'Sono Paola e mi stavo divertendo'
+                    messaggio: 'paola'
                 }
             ];
 

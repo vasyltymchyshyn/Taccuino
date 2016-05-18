@@ -1,11 +1,52 @@
+body{
+    background-image: url('../images/shattered.jpg');
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+}
+
 .productIcons{
     font-size: 2em;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 .elemento{
     text-align: center;
     height: 180px;
     border: solid 1px cornflowerblue;
+}
+.border{
+
+    margin: 15px;
+    background: cornflowerblue;
+    color: #fff;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.3em;
+    border: 3px dashed #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px cornflowerblue, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    text-shadow: -1px -1px blue;
+    font-weight: normal;
+    cursor:pointer;
+}
+
+.borderNotes{
+    margin: 15px;
+    background: white;
+    color: cornflowerblue;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.3em;
+    border: 2px dashed #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 0 4px cornflowerblue, 2px 1px 6px 4px rgba(10, 10, 0, 0.5);
+    text-shadow: -1px -1px white;
+    font-weight: normal;
+    cursor: pointer;
+
 }
 
 .add{
@@ -26,13 +67,35 @@ h1{
 
 
 .image{
-    height: 35px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
 
 }
 .body1{
-    margin-top: 5%
+    margin-top: 7%
 }
 .body2{
-    margin-top: 10%;
+    margin-top: 7%;
+}
+
+.navbar-brand{
+   margin-top: -13px;
+}
+.productIcons{
+    font-size: 2em;
+}
+
+
+
+.icons{
+    position: absolute;
+    bottom: 0;
+}
+
+.fa{
+    text-align:center;
+}
+
+.fa-trash-o{
+    font-size: 0.9em;
 }

@@ -1,5 +1,5 @@
 
-<div class="navbar navbar-fixed-top navbar-default navigation">
+<div class="navbar navbar-fixed-top  navbar-default navigation">
     <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -8,20 +8,24 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand pull-left" ui-sref="home"><img src="images/logoFinal.png" class="image" id="HomeLink"/></a>
+            <a class="navbar-brand" ui-sref="home"><img src="images/logoFinal.png" class= "image"id="HomeLink"/></a>
+
+            <form action="" class="navbar-right navbar-form" role="search">
+
+                    <input type="text" class="form-control" ng-model="search" ng-keyup="filtraRisultati()" placeholder="search your note">
+                <!--NON CI SERVE PIù IL PULSANTE VISTO CHE ESEGUE  -->
+                <!--<button type="submit" class="btn btn-primary">Submit</button>-->
+            </form>
+
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="example">
-            <ul class="nav navbar-nav">
-                <li class="active"><a href="">Link2</a></li>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="">Link2</a></li>
             </ul>
-            <form action="" class="navbar-form navbar-right" role="search">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="search your note">
-                </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
+
 
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
@@ -31,15 +35,23 @@
 
 <br>
 <div class="row body1">
-    <div ng-repeat="n in list">
-            <div class="col-md-3 elemento">
-                <a ui-sref="details({id:n.id})">{{n.messaggio}}</a>
+    <div class="col-md-offset-2">
+        <div ng-repeat="n in copia" ui-sref="details({id:n.id})">
+
+            <div class="col-md-3 elemento borderNotes">
+                <h3 ui-sref="details({id:n.id})">{{n.messaggio}}</h3>
+                <div class="row icons">
+                    <a class="productIcons" ui-sref="details({id:n.id})" title="dettaglio"><i class="fa fa-newspaper-o col-md-3"></i></a>
+                    <a class="productIcons" ui-sref="edit({id:n.id})" title="modifica"><i class="fa fa-pencil-square-o col-md-3"></i></a>
+                    <a class="productIcons" ui-sref="delete({id:n.id})" title="cancella"><i class="fa fa-trash-o col-md-3"></i></a>
+                </div>
             </div>
-    </div>
-    <div class="col-md-3 elemento">
-        <a class="add" ui-sref="insert" title="aggiungi"><i class="fa fa-plus"></i></a>
-    </div>
-    <div class="col-md-3 elemento">
-        <a class="add" ng-click="clearStorage()" title="svuota storage"><i class="fa fa-minus"></i></a>
+        </div>
+        <div class="col-md-3 elemento border">
+            <a class="add" ui-sref="insert" title="aggiungi"><i class="fa fa-plus"></i></a>
+        </div>
+        <div class="col-md-3 elemento border">
+            <a class="add" ng-click="clearStorage()" title="svuota storage"><i class="fa fa-minus"></i></a>
+        </div>
     </div>
 </div>
